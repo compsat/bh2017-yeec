@@ -27,6 +27,10 @@
             android:name=".FoodLister"
             android:label="@string/title_activity_food_lister"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shetgago"
+            android:label="@string/title_activity_shetgago"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
