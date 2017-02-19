@@ -46,7 +46,8 @@
 
     <Button
         android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_height="24dp"
+        android:foreground="@drawable/ic_restaurant_white_24px"
         android:layout_toRightOf="@id/foodTracker"
         android:layout_centerVertical="true"
         android:text="Meal Planner"
@@ -58,10 +59,7 @@
         android:foregroundGravity="left"
         android:elevation="2dp"
         style="@style/Widget.AppCompat.Button"
-        android:onClick="goToDietPlanner" >
-        <ImageView android:src="@drawable/ic_restaurant_white_24px"
-            android:scaleType="centerCrop"/>
-    </Button>
+        android:onClick="goToDietPlanner" />
         </LinearLayout>
     </FrameLayout>
 
