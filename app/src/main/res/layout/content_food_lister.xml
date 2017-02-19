@@ -42,7 +42,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -64,7 +63,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -87,7 +85,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -110,7 +107,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -133,7 +129,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -179,7 +174,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -202,7 +196,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -225,7 +218,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -270,7 +262,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
@@ -317,7 +308,6 @@
         <android.support.v7.widget.CardView
             android:layout_margin="4dp"
             android:layout_width="match_parent"
-            app:cardElevation="2dp"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background">
             <FrameLayout
