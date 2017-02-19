@@ -27,7 +27,7 @@ public class DataHolder{
     public double getWeight() {return weight;}
     public double getActivityModifier() {return round(activityModifier, 2);}
     public double getBMR() {return BMR;}
-    public double getTDEE() {return TDEE;}
+    public double getTDEE() {return round(TDEE, 2);}
     public double getExerciseType() {return exercise;}
     public boolean[] getAllergies() {return allergies;}
     public FoodItem[] getFoods() {return foods;}

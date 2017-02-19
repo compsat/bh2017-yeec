@@ -222,6 +222,7 @@ public class Information extends AppCompatActivity implements AdapterView.OnItem
                     aller[3] = Spice.isChecked();
                     DataHolder.getInstance().setAllergies(aller);
                     TDEE.setText("Total Daily Energy Expenditure: " + DataHolder.getInstance().getTDEE() + " calories.");
+                    finish();
 
                 }
             }
