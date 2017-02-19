@@ -38,7 +38,7 @@ public class Initial extends AppCompatActivity {
     public void goToPersonalInformation(View view) {
         Intent intent = new Intent(this, Information.class);
 
-            Snackbar.make(view, "New user. Please enter your personal info first.", Snackbar.LENGTH_LONG).show();
+        startActivity(intent);
     }
 
     public void goToFoodTracker(View view) {
