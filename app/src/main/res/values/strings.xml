@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjectDemeter</string>
+    <string-array name="genderspinner">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="salmon_ingredients">680g salmon fillets\n3 Tbsp Honey Mustard\n3 cloves garlic, minced\n3 Tbsp olive oil\n1 Tbsp lemon juice\n1 Tbsp chopped fresh dill\nPinch of salt</string>
+    <string name="title_activity_food_tracker">Food Tracker</string>
+    <string name="chicken_ingredients">4 skinless, boneless chicken breast halves\n1/4 tsp salt\n1/8tsp black pepper\n6 slices Swiss cheese\n4 slices cooked ham\n1/2 cup seasoned bread crumbs</string>
+
+</resources>
