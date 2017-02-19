@@ -60,7 +60,7 @@
         style="@style/Widget.AppCompat.Button"
         android:onClick="goToDietPlanner" >
         <ImageView android:src="@drawable/ic_restaurant_white_24px"
-            android:scaleType=""/>
+            android:scaleType="centerCrop"/>
     </Button>
         </LinearLayout>
     </FrameLayout>
