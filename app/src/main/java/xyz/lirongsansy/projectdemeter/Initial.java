@@ -37,7 +37,7 @@ public class Initial extends AppCompatActivity {
     }
 
     public void goToFoodTracker(View view) {
-        Intent intent = new Intent(this, FoodTracker.class);
+        Intent intent = new Intent(this, FoodLister.class);
 
         startActivity(intent);
     }

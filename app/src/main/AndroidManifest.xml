@@ -22,7 +22,11 @@
             android:label="@string/title_activity_food_tracker"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Salmon" />
-        <activity android:name=".Chicken"></activity>
+        <activity android:name=".Chicken" />
+        <activity
+            android:name=".FoodLister"
+            android:label="@string/title_activity_food_lister"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
