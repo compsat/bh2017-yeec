@@ -1,6 +1,7 @@
 package xyz.lirongsansy.projectdemeter;
 
 import android.content.Intent;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,13 +28,21 @@ public class Initial extends AppCompatActivity {
     public void goToDietPlanner(View view) {
         Intent intent = new Intent(this, dietPlanner.class);
 
-        startActivity(intent);
+        if (DataHolder.getInstance().isInitialized()) {
+            startActivity(intent);
+        } else {
+            Snackbar.make(view, "New user, please enter your personal info first.", Snackbar.LENGTH_LONG).show();
+        }
     }
 
     public void goToPersonalInformation(View view) {
         Intent intent = new Intent(this, Information.class);
 
-        startActivity(intent);
+        if (DataHolder.getInstance().isInitialized()) {
+            startActivity(intent);
+        } else {
+            Snackbar.make(view, "New user, please enter your personal info first.", Snackbar.LENGTH_LONG).show();
+        }
     }
 
     public void goToFoodTracker(View view) {
